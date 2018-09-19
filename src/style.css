@@ -27,7 +27,45 @@ p {
      font-family: "Verdana", Verdana, serif;
  }
 
+ .column {
+     float: left;
+     width: 20%;
+ }
 
+ /* Clear floats after the columns */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .divcolumn {
+
+      float: left;
+      width: 50%;
+      height: 500px;
+      background: grey;
+  }
+
+  /* Clear floats after the columns */
+  .divider:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+
+.br{
+height: 100px;
+}
+
+.br2{
+height:50px;
+}
+
+.map{
+    width:50%;
+
+    }
 nav {
 }
 
